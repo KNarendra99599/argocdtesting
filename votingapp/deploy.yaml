@@ -116,7 +116,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 80
+  - port: 5001
     targetPort: 80
     name: result-service
   selector:
@@ -158,7 +158,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - port: 80
+    - port: 5000
       targetPort: 80
       name: vote-service
   selector:
